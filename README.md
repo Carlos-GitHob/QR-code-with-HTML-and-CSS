@@ -176,8 +176,7 @@ If there's a better way of refining the centering of a div in the center of the 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Carlos-GitHob)
+- Frontend Mentor - [Carlos Sosa Juarez](https://www.frontendmentor.io/profile/Carlos-GitHob)
 
 
 
