@@ -65,19 +65,50 @@ h1 {
   color: hsl(228, 45%, 44%);
 }
 
+@media all and (max-width: 700px) {
+    .card{
+      position: relative;
+      left: -200px;
+      top: 380px;
 
-@media only screen and (max-width:400px){
-  .card{
-    width: 90%;
-    height: 90%;
-  }
+      height: 94%;
+      width: 40%;
+    }
+
+    #qr{
+      height: 500px;
+      top: -40px;
+    }
+
+    h1{
+      position: relative;
+      top: -77px;
+      left: 69px;
+
+      font-size: 34px;
+      justify-content: center;
+
+      width: 390px;
+      height: 30px;
+    }
+
+    #scan{
+      margin-left: 90px;
+      margin-top: 3px;
+
+      position: relative;
+      top: -20px;
+      left: -12px;
+
+      font-size: 21px;
+      justify-content: center;
+
+      width: 450px;
+    }
+
+    .attribution{
+      margin-top: 400px;
+      margin-left: -353px;
+    }
+
 }
-
-@media only screen and (max-width:300px){
-  .card{
-    width: 90%;
-    height: 90%;
-  }
-}
-
-
