@@ -1,114 +1,73 @@
-body {
-  width: 1440px;
-  height: 800px;
-  background-color: hsl(212, 45%, 89%);
-  text-align: center;
+:root{
+ --white: hsl(0, 0%, 100%);
+ --light-gray: hsl(212, 45%, 89%);
+ --grayish-blue: hsl(220, 15%, 55%);
+ --dark-blue: hsl(218, 44%, 22%);
 }
 
-.container {
-  background-color: hsl(0, 0%, 100%);
-  border: 3px solid white;
-  border-radius: 18px;
-  width: 332px;
-  height: 497px;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
 
+body{
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  position: relative;
-  left: 350px;
-  top: 152px;
-
-  margin-inline: auto;
-}
-
-h1 {
-  margin-left: 28px;
-  margin-top: 0px;
-  width: 288px;
-  height: 56px;
-  font-size: 23px;
-  font-family: "Outfit", sans-serif;
-  font-weight: bold;
-}
-
-#qr {
-  display: block;
-  width: auto;
-  height: 300px;
-  position: relative;
-  margin: auto;
-  padding: 20px 6px;
-  border-radius: 10%;
-}
-
-#scan {
-  color: grey;
-  width: 256px;
-  height: 56px;
-  font-size: 14px;
-  font-family: "Outfit", sans-serif;
-  font-weight: 700;
-  margin-left: 46px;
-  margin-top: 3px;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--light-gray);
+
+}
+
+.container{
+  width: 320px;
+  height: 497px;
+  text-align: center;
+
+  border-radius: 20px;
+  background-color: var(--white);
+  margin: 20px;
+  margin-top: 0px;
+}
+
+img{
+  width: 288px;
+  height: 288px;
+  display: block;
+  margin: 15px auto;
+
+  border-radius: 15px;
+}
+
+.text-container{
+  height: 129;
+  width: 288;
+}
+
+h1{
+  font-size: 22px;
+  padding: 15px;
+}
+
+p{
+  font-size: 15px;
+  padding-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 20px;
+  margin-bottom: 0;
+  color: var(--grayish-blue);
 }
 
 .attribution {
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
-  margin-top: 190px;
-  margin-left: 690px   ;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-@media all and (max-width: 700px) {
-    .card{
-      position: relative;
-      left: -200px;
-      top: 380px;
 
-      height: 94%;
-      width: 40%;
-    }
 
-    #qr{
-      height: 500px;
-      top: -40px;
-    }
-
-    h1{
-      position: relative;
-      top: -77px;
-      left: 69px;
-
-      font-size: 34px;
-      justify-content: center;
-
-      width: 390px;
-      height: 30px;
-    }
-
-    #scan{
-      margin-left: 90px;
-      margin-top: 3px;
-
-      position: relative;
-      top: -20px;
-      left: -12px;
-
-      font-size: 21px;
-      justify-content: center;
-
-      width: 450px;
-    }
-
-    .attribution{
-      margin-top: 400px;
-      margin-left: -353px;
-    }
-
-}
